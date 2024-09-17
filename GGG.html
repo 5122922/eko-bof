@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Texte Néon Animé</title>
+    <style  type="text/css">
+
+         body{
+        bground-image:url("44.png");
+        background-repeat:no-repeat;
+        background-size: cover;}
+         text-align: center;
+        font-family:century Gothic;
+
+        }
+        img {display:none}
+
+
+        .neon-text {
+            font-size: 50px;
+            color: #fff;
+            text-align: center;
+            text-shadow:
+                0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #ff00ff,
+                0 0 30px #ff00ff,
+                0 0 40px #ff00ff,
+                0 0 50px #ff00ff,
+                0 0 60px #ff00ff;
+            animation: neon 1.5s ease-in-out infinite alternate;
+        }
+.scrolling-text {
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+            box-sizing: border-box;
+            animation: scroll 10s linear infinite;
+        }
+
+
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        @keyframes neon {
+            from {
+                text-shadow:
+                    0 0 5px #fff,
+                    0 0 10px #fff,
+                    0 0 20px #ff00ff,
+                    0 0 30px #ff00ff,
+                    0 0 40px #ff00ff,
+                    0 0 50px #ff00ff,
+                    0 0 60px #ff00ff;
+            }
+            to {
+                text-shadow:
+                    0 0 10px #fff,
+                    0 0 20px #ff00ff,
+                    0 0 30px #ff00ff,
+                    0 0 40px #ff00ff,
+                    0 0 50px #ff00ff,
+                    0 0 60px #ff00ff,
+                    0 0 70px #ff00ff;
+            }
+        }
+
+
+   </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+
+  <!--hesder design-->
+  <header class="header">
+<a href="#logo" class="logo"><span class="animation" style="--i:1;"></span></a>
+<img style="display:none" src="close.png">
+<img class="look" src="téléchargement.png" alt="sun">
+<nav class="navbar">
+  <a href="#home" class="active">Acceuil</a>
+  <a href="#skills">Cours</a>
+  <a href="#education">Projets</a>
+  <a href="#about">A propos de moi</a>
+    <b>
+
+         <!--home section design-->
+  <section class="home show-animation show-animate" id="home">
+    <div class="img">
+      <img src="dave.jpg" alt="width="300" height="200">
+    </div>
+    <div class="home-content">
+      <h1><span>SIR David HOPE</span><span class="animation" style="--i:1;"></span></h1>
+      <p class="home-text">
+        Salut tout le monde.
+      </p>
+      <div class="btn-box">
+        <a href="https://wa.me/+243821689662" class="btn">Contactez moi via whatsapp</a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+        <img src="44.png"alt="image"width="300" height="200">
+    </b>
+
+
+  <span class="active-nav"></span>
+  <span class="animation" style="--i:2;"></span>
+
+
+    <p class="neon-text" >sir DAVID HOPE</p>
+<h1 class="scrolling-text"> monsieur hope</h1>
+
+<br>
+        <a href="https://wa.me/+243821689662" class="btn">Contactez moi</a>
+    </br>
+<br>
+              <a href="https://www.dropbox.com/scl/fi/z60va6l05ckywtkem7z72/SOLEIL-LEVANT.pdf?rlkey=r5grdl993fpf93tgelkqurvwu&dl=0" target="_blank" class="btn">VOIR MON LIVRE</a>
+
+
+
+
+
+</body>
+</html>
